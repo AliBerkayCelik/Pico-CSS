@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Kayıt Ol</title>
+</head>
+<body>
+  <nav class="container-fluid">
+    <ul>
+      <li><strong>Brand</strong></li>
+      
+    </ul>
+    
+  
+    <ul>
+      <li><a href="index.html" role="button">Ana Sayfa</a></li>
+      <li><a href="kayit-ol.html" role="button" class="outline">Kayıt Ol</a></li>
+      <li><a href="giris.html" role="button" class="secondary outline">Giriş</a></li>
+      <li role="list" dir="rtl">
+        <a href="#" aria-haspopup="listbox">Menü</a>
+        <ul role="listbox">
+          <li><a href="urunler.html">Ürünler</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+          
+        </ul>
+      </li>
+    </ul>
+  </nav>
+      <article>
+        <main class="container">
+            <div class="grid">
+                <div>
+                    <form>
+    
+                        <!-- Grid -->
+                        <div class="grid">
+                      
+                          <!-- Markup example 1: input is inside label -->
+                          <label for="firstname">
+                            İsim
+                            <input type="text" id="firstname" name="firstname" placeholder="İsim" required>
+                          </label>
+                      
+                          <label for="lastname">
+                            Soy İsim
+                            <input type="text" id="lastname" name="lastname" placeholder="Soy isim" required>
+                          </label>
+                      
+                        </div>
+                      
+                        <!-- Markup example 2: input is after label -->
+                        <label for="email">Mail</label>
+                        <input type="email" id="email" name="email" placeholder="Mail" required>
+                        
+                        <fieldset>
+                            <label for="terms">
+                              <input type="checkbox" id="terms" name="terms">
+                              I agree to the Terms and Conditions
+                            </label>
+                            <label for="terms_sharing">
+                              <input type="checkbox" id="terms_sharing" name="terms_sharing" disabled checked>
+                              I agree to share my information with partners
+                            </label>
+                          </fieldset>
+                        <!-- Button -->
+                        <button type="submit">Kayıt Ol</button>
+                      
+                      </form>
+                </div>
+                <div>
+                    <img src="https://picsum.photos/id/1/600/420" alt="lorem picsum">
+                </div>
+              </div>
+          </main>
+      </article>
+      
+</body>
+</html>
